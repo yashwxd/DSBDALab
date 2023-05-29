@@ -1,0 +1,53 @@
+Statement
+object statement{
+def main(args: Array[String]) {
+val text: String = "Nnvkfvnfkvfnfnfknfkbnfkbfnbkfbnfkbnk"
+println("VAlue"+text)
+}
+}
+
+name
+object name{
+def main(args: Array[String]){
+println("my name is Hello")
+}
+}
+
+larger no
+object larger{
+def main(arg: Array[String]){
+var num1=30
+var num2=20
+if(num1>num2){
+println("greater no is "+num1)
+}else{
+println("greater no is "+num2)
+}
+//second option to ger output
+var lar= if(num1>num2) num1 else num2
+println("larger"+lar)
+}
+}
+
+addition
+object add{
+def main(arg: Array[String]){
+var num1=30
+var num2=20
+var addi=num1+num2
+println("Addition is "+addi)
+//another way to print data
+println(s"Addition of $num1 and $num2 is $addi")
+//now using function
+def addInt(num1: Int, num2: Int): Int = {
+num1 + num2 }
+}
+}
+
+object zpn{
+def main(args: Array[String]){
+var num = (-1)
+var out=if(num==0) "Zero" else if(num>0) "positive" else "negative"
+print("Output is "+out)
+}
+}
